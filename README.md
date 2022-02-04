@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=nano&color=%2336BCF7&center=true&vCenter=true&width=500&lines=Tutorial+Install+Ada+DiBawah+Foto)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=nano&color=%2336BCF7&center=true&vCenter=true&width=500&lines=TUTORIAL+INSTALL+ADA+DIBAWAH)](https://git.io/typing-svg)
 
 $ pkg update && pkg upgrade 
 
