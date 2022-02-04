@@ -10,7 +10,6 @@ apt install ruby -y
 pip2 install ipaddress
 gem install lolcat
 clear
-echo "       [√] install commando done..."
-echo
-echo "     ketik python2 vcrack.py untuk lanjut. "
-echo
+"       [√] install commando done..."
+
+"     ketik python2 vcrack.py untuk lanjut. "
