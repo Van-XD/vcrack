@@ -305,7 +305,7 @@ def menu():
 
 	elif Ivan == "0" or Ivan == "00":
 
-		os.system("rm -f login.txt")
+		os.system("rm -rf login.txt")
 
 		exit("\n\033[1;96m[\033[1;93m!\033[1;96m] Token Removed")
 
