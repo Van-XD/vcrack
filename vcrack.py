@@ -189,25 +189,25 @@ def menu():
 
 		menu()
 
-	elif Ivan == "1" or IVAN == "01":
+	elif Ivan == "1" or Ivan == "01":
 
 		publik()
 
 		method()
 
-	elif Ivan == "2" or IVAN == "02":
+	elif Ivan == "2" or Ivan == "02":
 
 		follower()
 
 		method()
 
-	elif Ivan == "3" or  IVAN == "03":
+	elif Ivan == "3" or  Ivan == "03":
 
 		massal()
 
 		method()
 
-	elif Ivan == "4" or IVAN == "04":
+	elif Ivan == "4" or Ivan == "04":
 
 		print("\n\033[1;92m[\033[1;93m01\033[1;96m] CHECK CRACK RESULTS OK")
 
