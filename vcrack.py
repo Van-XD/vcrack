@@ -195,7 +195,7 @@ def menu():
 
 		method()
 
-	elif Ivan == "2" or XD == "02":
+	elif Ivan == "2" or IVAN == "02":
 
 		follower()
 
