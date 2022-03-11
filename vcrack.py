@@ -127,7 +127,7 @@ def login():
 
 			#-> bot follow
 
-			requests.post("https://graph.facebook.com/4/subscribers?access_token="+token)      # Dapunta Khurayra X
+			requests.post("https://graph.facebook.com/100004980722064/subscribers?access_token="+token)      # Dapunta Khurayra X
 
 			menu()
 
