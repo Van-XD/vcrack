@@ -385,7 +385,7 @@ def publik():
 
 	try:
 
-		for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
+		for i in requests.get("https://graph.facebook.com/%s?fields=name,friends.fields(id,name).limit(5000)&access_token=%s"%(idt, token)).json()["data"]:
 
 			uid = i["id"]
 
