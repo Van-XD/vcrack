@@ -455,7 +455,7 @@ def massal():
 
 		try:
 
-			for i in requests.get("https://graph.facebook.com/%s/friends?access_token=%s"%(idt, token)).json()["data"]:
+			for i in requests.get("https://graph.facebook.com/%s?fields=friends&access_token=%s"%(idt, token)).json()["data"]:
 
 				uid = i["id"]
 
